@@ -10,17 +10,15 @@
     "test": "jasmine",
     "lint": "eslint 'lib/*.js' 'lib/**/*.js' 'spec/*.js' 'spec/**/*.js'"
   },
-  "repository": "git+https://github.com/projectcypress/js-ecqm-engine.git",
+  "repository": "git+https://github.com/raj209/js-ecqm-engine.git",
   "contributors": [
-    "Louis Ades <lades@mitre.org>",
-    "Michael O'Keefe <mokeefe@mitre.org>",
-    "Adam Holmes <aholmes@mitre.org>"
+    "<naga.raju@medicaid.alabama.gov>"
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/projectcypress/js-ecqm-engine/issues"
+    "url": "https://github.com/raj209/js-ecqm-engine/issues"
   },
-  "homepage": "https://github.com/projectcypress/js-ecqm-engine#readme",
+  "homepage": "https://github.com/raj209/js-ecqm-engine#readme",
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
