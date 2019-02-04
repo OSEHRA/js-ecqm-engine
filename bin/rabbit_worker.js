@@ -61,7 +61,7 @@ config.validate({ allowed: 'strict' });
 
 const rabbitURL = `amqp://${config.get('rabbitmq.host')}:${config.get('rabbitmq.port')}`;
 const cypressDB = `cypress_${env}${config.get('cypress.test_num')}`;
-const popHealthDB = `pophealth-development`;
+const popHealthDB = `pophealth-production`;
 const mongoURL = `mongodb://${config.get('mongodb.host')}` +
                  `:${config.get('mongodb.port')}/${popHealthDB}`;
 
